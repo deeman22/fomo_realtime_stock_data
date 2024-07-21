@@ -1,13 +1,13 @@
-package com.fomo.RealTimePriceDataBackend;
+package com.fomo.realtimepricedatabackend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RealTimePriceDataBackendApplication {
+public class RealtimepricedatabackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RealTimePriceDataBackendApplication.class, args);
+		SpringApplication.run(RealtimepricedatabackendApplication.class, args);
 	}
 
 }
