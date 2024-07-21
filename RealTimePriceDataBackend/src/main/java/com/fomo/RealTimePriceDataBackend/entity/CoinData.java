@@ -33,22 +33,6 @@ public class CoinData {
         this.name = name;
     }
 
-    // public double getPrice() {
-    // return price;
-    // }
-
-    // public void setPrice(double price) {
-    // this.price = price;
-    // }
-
-    // public LocalDateTime getTimestamp() {
-    // return timestamp;
-    // }
-
-    // public void setTimestamp(LocalDateTime timestamp) {
-    // this.timestamp = timestamp;
-    // }
-
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
