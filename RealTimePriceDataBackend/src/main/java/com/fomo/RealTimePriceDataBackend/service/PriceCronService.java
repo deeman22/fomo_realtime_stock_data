@@ -46,7 +46,7 @@ public class PriceCronService {
         this.priceRepository = priceRepository;
     }
 
-    @Scheduled(fixedRate = 5000)
+    @Scheduled(fixedRate = 30000)
     public void fetchAndSavePrices() {
         String coinIds = getAllCoinIds();
         if (coinIds.isEmpty()) {
