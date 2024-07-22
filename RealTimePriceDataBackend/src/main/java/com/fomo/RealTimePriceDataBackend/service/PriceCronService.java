@@ -35,11 +35,11 @@ public class PriceCronService {
     @Autowired
     private RestTemplate restTemplate;
 
-    @Value("${coin.api.url}")
+    @Value("${coingecko.api.url}")
     private String apiUrl;
 
-    @Value("${coin.api.token}")
-    private String apiToken;
+    // @Value("${coingecko.api.token}")
+    // private String apiToken;
 
     public PriceCronService(CoinRepository coinRepository, CoinPriceHistoryRepository priceRepository) {
         this.coinRepository = coinRepository;
